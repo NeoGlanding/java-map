@@ -19,5 +19,14 @@ public class Main {
         for (String key : sampleHashMap.keySet()) {
             System.out.println(key + " : "  + sampleHashMap.get(key));
         }
+
+//        Remove HashMap element
+        sampleHashMap.remove("Python");
+
+        System.out.println(sampleHashMap);
+
+//        Update element
+        sampleHashMap.replace("Java", "Still learn about Java programming and in progress");
+        System.out.println(sampleHashMap);
     }
 }
